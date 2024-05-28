@@ -31,7 +31,7 @@ const Stopwatch = () => {
     <div className='stopwatch'>
         <h1>{time}</h1>
         <button type="button" onClick={stopwatchStart}>Start</button>
-        <button type="button" onClick={stopwatchStop}>Pause/Resume</button>
+        <button type="button" onClick={stopwatchStop}>Stop</button>
         <button type="button" onClick={stopwatchReset}>Reset</button>
     </div>
   )
